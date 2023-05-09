@@ -1,0 +1,15 @@
+.nav {
+  border-radius: 5px;
+  padding: 16px 12px;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.active {
+  background: #ff9900;
+  transition: 0.2s ease-in;
+}
+
+.pending {
+  background: #ed4562;
+  transition: 0.2s ease-in;
+}
