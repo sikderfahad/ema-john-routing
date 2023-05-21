@@ -1,8 +1,8 @@
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const ToastMsg = () => {
-  toast.warn("Hay React I'm Here!", {
+const ToastMsg = (msg) => {
+  toast.warn(`${msg}`, {
     position: "top-right",
     autoClose: 5000,
     hideProgressBar: false,
