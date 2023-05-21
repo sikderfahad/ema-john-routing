@@ -34,7 +34,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/procced-checkout",
-        element: <ProccedCheck></ProccedCheck>,
+        element: (
+          <PrivateRoute>
+            <ProccedCheck></ProccedCheck>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/sign-up",
